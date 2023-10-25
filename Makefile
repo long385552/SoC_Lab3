@@ -4,8 +4,3 @@ fir:
 	xelab -top fir_tb -snapshot fir_tb_elab
 	xsim fir_tb_elab -R
 
-
-#my user code
-clean:
-	rm -rf xsim.dir/ *.log *.pb *.jou *.wdb
-
